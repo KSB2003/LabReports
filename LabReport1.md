@@ -1,6 +1,6 @@
 ## Lab Report 1
 
-##Part 1: Installing visual studio code
+## Part 1: Installing visual studio code
 
 Step 1: The first thing that must be done is dowloading visual studio code from the official website. You can use this [link](https://code.visualstudio.com/download) and download the appropriate version of visual studio code depending on the number of bits and the operating system that you are using.
 
@@ -11,7 +11,7 @@ Step 2: After installing you can access the zip file from your downloads and ope
 Step 3: Click on the zip file and take the following steps in order to be able to use visual studio and get it on your applications.
 
 
-##Part 2: Remotely connecting
+## Part 2: Remotely connecting
 
 
 Step 1: In order to remotely coonect to the server you must first be able to change your password for your UCSD account, you can do this via this [link](https://sdacs.ucsd.edu/~icc/index.php). It will look as follows:
@@ -29,7 +29,7 @@ Step 4: After this you will be prompted to enter the password. The password will
 <img width="400" alt="Screen Shot 2022-04-06 at 11 15 39 PM" src="https://user-images.githubusercontent.com/65454241/162132654-f1837158-e6a7-413c-9878-994c33aee266.png">
 
 
-##Part 3: Trying some commands
+## Part 3: Trying some commands
 
 
 After you have connected there are a variety of commands that you could try on the remote server. 
@@ -56,7 +56,7 @@ The following is a picture of me attempting to access the remote server of one o
 
 
 
-##Part 4: Moving files over SSH with scp
+## Part 4: Moving files over SSH with scp
 
 
 Step 1: Create a random file on vs code. Make sure that the code actually compiles and save the file. Test the code by using `javac` and `java` on your computer. 
@@ -73,7 +73,7 @@ Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list
 <img width="700" alt="Screen Shot 2022-04-06 at 11 33 15 PM" src="https://user-images.githubusercontent.com/65454241/162135551-de3b9ccc-3ca9-4ecd-b1fb-de7ed01c77bc.png">
 
 
-##Part 5: Setting up SSH keys
+## Part 5: Setting up SSH keys
 
 
 Step 1: When you are on the client (your own computer not the remote server) type in the following command:
@@ -92,7 +92,7 @@ After you have logged in, it will look as follows:
 
 
 
-##Part 6: Optimizing Remote Running
+## Part 6: Optimizing Remote Running
 
 
 There are multiple ways in which you can optimize your remote running?:
