@@ -56,7 +56,8 @@ The loop would not know when to stop. As a result, we would see an ‘OutOfMemor
 ## Test 3
 ## Part 1: Screenshot of code change
 
-<img width="501" alt="Screen Shot 2022-04-24 at 7 24 33 PM" src="https://user-images.githubusercontent.com/65454241/165010528-ceececec-c067-46d1-a9a4-b7c62d9d9a88.png">
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/65454241/166863677-7eb20536-d98f-4f7a-9e8b-b8d49ff82c50.png">
+
 
 ## Part 2: Link to test file for failure inducing input
 
@@ -65,8 +66,12 @@ The loop would not know when to stop. As a result, we would see an ‘OutOfMemor
 
 ## Part 3: Symptom of failure inducing input
 
-<img width="551" alt="Screen Shot 2022-04-24 at 7 02 32 PM" src="https://user-images.githubusercontent.com/65454241/165010652-031eabf0-699c-49d6-950b-3bc4fc1a628c.png">
+
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/65454241/166863755-0eb1d1a3-a76f-4277-8e60-e3899538f538.png">
+
 
 
 ## Part 4: Relationship between bug, symptom, and failure inducing input
-The bug that I found was that I created two lists and I tried to add the elements from the second list into the first list but I made the mistake of just adding the elements from the second list to the second list instead of adding to the first list so I could get all of the links. The same symptom is there for all of the test cases.
+
+The loop wouldn’t know when to stop and there would be a repetition as the method would run again. That is why I added an extra condition in the loop so that the second method (getlinks2) would know when to stop.
+
