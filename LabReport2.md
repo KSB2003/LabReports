@@ -31,7 +31,8 @@ The problem is that it would not recognize the 2nd type of link formatting in th
 ## Test 2
 ## Part 1: Screenshot of code change
 
-<img width="705" alt="Screen Shot 2022-04-24 at 6 57 39 PM" src="https://user-images.githubusercontent.com/65454241/165008464-774f91ac-c5d4-4be0-a46a-e0d01a4f4cec.png">
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/65454241/166863448-f1c1fd70-3fae-492c-9c76-4f6a58bd1bf2.png">
+
 
 
 ## Part 2: Link to test file for failure inducing input
@@ -41,13 +42,14 @@ The problem is that it would not recognize the 2nd type of link formatting in th
 
 ## Part 3: Symptom of failure inducing input
 
-<img width="551" alt="Screen Shot 2022-04-24 at 7 02 32 PM" src="https://user-images.githubusercontent.com/65454241/165008794-c5385823-3ae6-4362-b718-7002869f46d5.png">
+
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/65454241/166863476-2a6846a4-d9c0-4e18-abdc-345bb6be52c1.png">
+
 
 
 ## Part 4: Relationship between bug, symptom, and failure inducing input
 
-The same error as before. The main method in the class is not yet adjusted to take the second method. The way in which I implemented the code was that I created a second method and it needed to be implemented in the main method. 
-
+The loop would not know when to stop. As a result, we would see an ‘OutOfMemoryError’ in the output. In order to fix this an extra condition must be added in the loop so that it knows when to stop. 
 
 
 
