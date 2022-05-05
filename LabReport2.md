@@ -2,7 +2,9 @@
 ## Test 1
 ## Part 1: Screenshot of code change
 
-<img width="698" alt="Screen Shot 2022-04-24 at 6 25 02 PM" src="https://user-images.githubusercontent.com/65454241/165006237-6c849c68-adc3-4bde-b436-c597c503694e.png">
+
+<img width="414" alt="image" src="https://user-images.githubusercontent.com/65454241/166863248-83193c09-72ff-418f-a443-1dadd8f3761c.png">
+
 
 
 
@@ -13,12 +15,17 @@
 
 ## Part 3: Symptom of failure inducing input
 
-<img width="578" alt="Screen Shot 2022-04-24 at 6 45 28 PM" src="https://user-images.githubusercontent.com/65454241/165007560-af222190-4f6f-48d8-9a39-8b7e995582ab.png">
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/65454241/166863267-196d9317-a528-444a-9923-6235232e6c7e.png">
+
 
 The error is that all of the links were not recognized.
 
 ## Part 4: Relationship between bug, symptom, and failure inducing input
-The code is not designed for the second type of link formatting. Therefore it will not work for the following type input and it will only give one link as opposed to the two that are there. 
+
+
+The problem is that it would not recognize the 2nd type of link formatting in the breaking test file. It would only recognize the other type link. There would be a bug because we don’t get all of the output that we expect. So I modified the code in order to be able to collect the second type of link. !
+
+
 
 
 ## Test 2
