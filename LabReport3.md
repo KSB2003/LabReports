@@ -17,3 +17,22 @@
 
 
 - Show an scp command copying a file to your account using just the alias you chose.
+
+<img width="543" alt="Screen Shot 2022-05-07 at 11 56 15 PM" src="https://user-images.githubusercontent.com/65454241/167285470-e26194a9-2daf-4479-bd47-341f4c5ccc17.png">
+
+
+## Task 2: Setup Github Access from ieng6
+
+- Show where the public key you made is stored on Github and in your user account (screenshot).
+
+<img width="500" alt="Screen Shot 2022-05-08 at 12 01 59 AM" src="https://user-images.githubusercontent.com/65454241/167285605-8e6a6efc-f3bd-40df-aad4-0b54074fe3da.png">
+
+
+<img width="559" alt="Screen Shot 2022-05-08 at 12 04 57 AM" src="https://user-images.githubusercontent.com/65454241/167285664-c4798a12-ee14-4727-a662-a43724cc3c41.png">
+
+
+
+- Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+
+<img width="422" alt="Screen Shot 2022-05-08 at 12 07 39 AM" src="https://user-images.githubusercontent.com/65454241/167285763-ceb6c5da-1349-4753-89e9-23092ac6418f.png">
+
