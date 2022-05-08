@@ -33,6 +33,8 @@
 
 
 - Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+- 
 
-<img width="422" alt="Screen Shot 2022-05-08 at 12 07 39 AM" src="https://user-images.githubusercontent.com/65454241/167285763-ceb6c5da-1349-4753-89e9-23092ac6418f.png">
+<img width="428" alt="Screen Shot 2022-05-08 at 3 45 23 PM" src="https://user-images.githubusercontent.com/65454241/167318943-6996060e-8600-4bed-8c5b-defb4113a3eb.png">
+
 
