@@ -36,7 +36,8 @@
 - Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
 
 
-<img width="428" alt="Screen Shot 2022-05-08 at 3 45 23 PM" src="https://user-images.githubusercontent.com/65454241/167318943-6996060e-8600-4bed-8c5b-defb4113a3eb.png">
+<img width="396" alt="Screen Shot 2022-05-08 at 6 49 24 PM" src="https://user-images.githubusercontent.com/65454241/167327294-21a0ff19-46f2-4098-95aa-a12b4c72be8f.png">
+
 
 
 - Show running git commands to commit and push a change to Github while logged into your ieng6 account.
