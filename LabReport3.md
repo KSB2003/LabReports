@@ -28,7 +28,8 @@
 <img width="500" alt="Screen Shot 2022-05-08 at 12 01 59 AM" src="https://user-images.githubusercontent.com/65454241/167285605-8e6a6efc-f3bd-40df-aad4-0b54074fe3da.png">
 
 
-<img width="559" alt="Screen Shot 2022-05-08 at 12 04 57 AM" src="https://user-images.githubusercontent.com/65454241/167285664-c4798a12-ee14-4727-a662-a43724cc3c41.png">
+<img width="562" alt="Screen Shot 2022-05-08 at 6 46 39 PM" src="https://user-images.githubusercontent.com/65454241/167327082-b2227880-1c66-4e0a-b0e7-1a3b2d4821dd.png">
+
 
 
 
