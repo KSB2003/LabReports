@@ -43,4 +43,28 @@
 
 <img width="767" alt="Screen Shot 2022-05-08 at 4 54 49 PM" src="https://user-images.githubusercontent.com/65454241/167321063-4ef01ec7-b8f0-4a23-af04-c6d911cff3d6.png">
 
+- Show a link for the resulting commit.
+[link](https://github.com/KSB2003/markdown-parser/commit/23c91d7a97288c0e2e9da4f1469966f3d448cdf2)
+
+
+
+## Task 3: Copy whole directories with scp -r
+
+- Show copying your whole markdown-parse directory to your ieng6 account.
+
+
+<img width="259" alt="Screen Shot 2022-05-08 at 5 10 52 PM" src="https://user-images.githubusercontent.com/65454241/167321759-eff8eb36-c77d-405a-a7ca-515b14178938.png">
+
+
+- Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
+
+
+<img width="1600" alt="Screen Shot 2022-05-08 at 5 20 55 PM" src="https://user-images.githubusercontent.com/65454241/167321936-d7a38ef1-7672-4032-86e6-292b09b18f7e.png">
+
+- Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+
+<img width="571" alt="Screen Shot 2022-05-08 at 6 09 16 PM" src="https://user-images.githubusercontent.com/65454241/167324604-53c6b32a-b39d-454d-b9ba-88dc9b630579.png">
+
+
+
 
