@@ -21,6 +21,10 @@
 <img width="543" alt="Screen Shot 2022-05-07 at 11 56 15 PM" src="https://user-images.githubusercontent.com/65454241/167285470-e26194a9-2daf-4479-bd47-341f4c5ccc17.png">
 
 
+
+In the above tasks I added a series of steps to our config file and logged into our server using the simple command of `ssh ieng6`. Following this I made a file using touch and copy pasted it using the `scp` command into our remote server. 
+
+
 ## Task 2: Setup Github Access from ieng6
 
 - Show where the public key you made is stored on Github and in your user account (screenshot).
@@ -50,6 +54,10 @@
 
 
 
+I created the key and stored it in github. I navigated to the file with the key in the system and performed a `cat` command in order to see the contents of the key. Then I ran the neccessary git commands and pushed a change to github from our ieng6 account. 
+
+
+
 ## Task 3: Copy whole directories with scp -r
 
 - Show copying your whole markdown-parse directory to your ieng6 account.
@@ -69,4 +77,6 @@
 
 
 <img width="343" alt="Screen Shot 2022-05-08 at 6 12 51 PM" src="https://user-images.githubusercontent.com/65454241/167324683-23cf054e-2545-4815-9a38-2ecaac8f77f9.png">
+
+I copied the entire directory using `scp -r` and then I logged into my account and ran the markdown parser. I then combined all of the steps using semicolons and ran it all at once. 
 
