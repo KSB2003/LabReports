@@ -1,4 +1,6 @@
 ## Lab report 4
+(Link to other groups repository)[https://github.com/hsflores7/markdown-parser.git]
+(Link to my repository)[https://github.com/KSB2003/markdown-parser-main-2]
 
  - Snippet 1:
 
