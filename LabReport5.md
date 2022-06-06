@@ -22,8 +22,13 @@ Output of group/my implementation:
 Expected output:
 `[foo(and(bar))]`
 
-The highlighted line in the error in the code.
-<img width="415" alt="Screen Shot 2022-06-05 at 5 46 07 PM" src="https://user-images.githubusercontent.com/65454241/172078322-a43d5f0a-5bff-4a7a-b79b-d9b41b2050ed.png">
+
+The highlighted line in the error is the error in the code. It matches the first open with the first closed bracket and it fails to stack additional brackets. In order to fix this I would implement a stack program to find the matching brackets. 
+
+
+<img width="394" alt="Screen Shot 2022-06-05 at 6 01 42 PM" src="https://user-images.githubusercontent.com/65454241/172078700-74eab534-0ba8-43c6-80ee-dfeab85e9dad.png">
+
+
 
 
 
