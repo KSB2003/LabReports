@@ -4,14 +4,21 @@
 results of running a bash for loop? Did you search through manually? Did you
 use some other programmatic idea?)
 
-Answer: I searched through manually. 
+Answer: I searched through manually for both test cases. 
 
 ## Test 1: 495
 
-Describe which implementation is correct, or neither if both give the wrong output:
+## Describe which implementation is correct, or neither if both give the wrong output:
  - My group's implementation is wrong and the provided implementation is correct.
 
+
+## Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
+
 [test-495](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/495.md)
+
+
+
+## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
 Output of provided implementation:
 
@@ -26,6 +33,8 @@ Expected output:
 `[foo(and(bar))]`
 
 
+## Bug description and fix
+
 The highlighted line in the error is the error in the code. It matches the first open with the first closed bracket and it fails to stack additional brackets. In order to fix this I would implement a stack program to find the matching brackets. 
 
 
@@ -33,12 +42,22 @@ The highlighted line in the error is the error in the code. It matches the first
 
 
 ## Test 2: 504
-Describe which implementation is correct, or neither if both give the wrong output:
+## Describe which implementation is correct, or neither if both give the wrong output:
  - Both of the implementations are incorrect, both mine and the given implementation.
     - The wrong output given by my implemenation was as follows `[/url "title", /url 'title', /url (title]`.
     - The wrong output given by the given implemenation was as follows `[]`.
 
+
+
+
+## Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
+
+
 [test-504](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/504.md)
+
+
+
+## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
 Output of provided implementation:
 
@@ -53,6 +72,8 @@ Expected output:
 
 `[/url "title", /url 'title', /url (title)]`
 
+
+## Bug description and fix
 
 The highlighted line in the error is the error in the code. It matches the first open with the first closed bracket and it fails to include the closed bracket of the last entry. In order to fix this we can add an extra if condition that would help include the final closing parenthesis. 
 
