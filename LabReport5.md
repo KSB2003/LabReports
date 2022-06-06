@@ -4,7 +4,7 @@
 results of running a bash for loop? Did you search through manually? Did you
 use some other programmatic idea?)
 
-Answer: I searched through manually for both test cases. 
+     Answer: I searched through manually for both test cases. 
 
 ## Test 1: 495
 
