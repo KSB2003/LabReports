@@ -11,15 +11,18 @@ Answer: I searched through manually.
 Describe which implementation is correct, or neither if both give the wrong output:
  - My group's implementation is wrong and the provided implementation is correct.
 
-[link for test 495](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/495.md)
+[test-495](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/495.md)
 
 Output of provided implementation:
+
 `[foo(and(bar))]`
 
 Output of group/my implementation:
+
 `[foo(and(bar]`
 
 Expected output:
+
 `[foo(and(bar))]`
 
 
@@ -29,8 +32,29 @@ The highlighted line in the error is the error in the code. It matches the first
 <img width="394" alt="Screen Shot 2022-06-05 at 6 01 42 PM" src="https://user-images.githubusercontent.com/65454241/172078700-74eab534-0ba8-43c6-80ee-dfeab85e9dad.png">
 
 
+## Test 2: 504
+Describe which implementation is correct, or neither if both give the wrong output:
+ - Both of the implementations are incorrect, both mine and the given implementation.
+    - The wrong output given by my implemenation was as follows `[/url "title", /url 'title', /url (title]`.
+    - The wrong output given by the given implemenation was as follows `[]`.
+
+[test-504](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/504.md)
+
+Output of provided implementation:
+
+`[]`
+
+Output of group/my implementation:
+
+`[/url "title", /url 'title', /url (title]`
 
 
+Expected output:
+
+`[/url "title", /url 'title', /url (title)]`
 
 
+The highlighted line in the error is the error in the code. It matches the first open with the first closed bracket and it fails to include the closed bracket of the last entry. In order to fix this we can add an extra if condition that would help include the final closing parenthesis. 
 
+
+<img width="371" alt="Screen Shot 2022-06-05 at 6 42 25 PM" src="https://user-images.githubusercontent.com/65454241/172081149-514e4bd3-0a7f-4818-b3d7-819787e199e2.png">
